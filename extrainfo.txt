@@ -1,0 +1,18 @@
+New Site Color Palette:
+
+    #f7e8d3 (tan)
+    #000000 (black)
+    #fffffe (white)
+    #efd1a8 (peach)
+    #1a1a1a (lighter blak)
+    #ffffff (white)
+
+Old Site Color Palette:
+
+    #6789ba (light purple)
+    #ffffff (white)
+    #8aa4ca (light blue)
+    #4a6fa4 (pink!)
+    #ебебеб (very light grey)
+    #adbfda (lighest purple)
+
