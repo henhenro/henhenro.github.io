@@ -1,0 +1,39 @@
+.logo-margin {
+    margin-right: 10px;
+}
+
+/* #logo-text-margin {
+    margin-top: 1px;
+    padding-top: 1px;
+    border-top: 1px
+} */
+
+#main-div {
+    padding: 30px 30px 30px 30px;
+}
+
+.center {
+    text-align: center;
+}
+
+#input-width {
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    max-width: 90%;
+}
+
+.input-margin {
+    margin: 10px 10px 10px 10px
+}
+
+.check-border {
+    border-width: 1px;
+    border-color: blue;
+    border-style: solid;
+}
+
+.right-border {
+    border-right-style: solid;
+    border-width: 3px;
+    border-color: #efd1a8; /* light brown */
+}
