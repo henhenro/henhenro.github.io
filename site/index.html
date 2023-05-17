@@ -16,8 +16,8 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="">
-                    <img src="images/Transparent Logo.png" alt="A Bold Project" width="50" height="50" class="d-inline-block align-text-middle logo-margin">
-                    <b>A Bold Project</b>
+                    <img class="" src="images/Transparent Logo.png" alt="A Bold Project" width="50" height="50" class="d-inline-block align-text-middle logo-margin">
+                    <b class="logo-text">A Bold Project</b>
                 </a>
             </div>
         </nav>
@@ -46,8 +46,7 @@
                             <div id="left-padding" class="mb-3">
                                 <h6 class="form-label"><b>Fan</b>cy <b>Bold</b>ed <b>Te</b>xt</h6>
                                 <div id="output" class="noresize"></div>
-                                <!-- <div id="output" class="noresize" contenteditable="true"></div> -->
-                                <button id="copy-button" class="btn btn-primary input-margin" onclick="copyFormattedText()">Copy</button>
+                                <button id="copy-button" class="btn btn-primary input-margin" onClick="copyFormattedText(document.getElementById('output').innerHTML)">Copy</button>
                             </div>
                         </div>
                     </div>

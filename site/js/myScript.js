@@ -42,23 +42,18 @@ function transform() {
     output.innerHTML = bold_text;
 }
 
-function copyFormattedText() {
-    // Select the content within the editable div
-    const range = document.createRange();
-    range.selectNodeContents(output);
-    const selection = window.getSelection();
-    selection.removeAllRanges();
-    selection.addRange(range);
-    
-    // Execute the copy command
+function copyFormattedText(str) {
+    function listener(e) {
+      e.clipboardData.setData("text/html", str);
+      e.clipboardData.setData("text/plain", str);
+      e.preventDefault();
+    }
+    document.addEventListener("copy", listener);
     document.execCommand("copy");
-  
-    // Deselect the text
-    selection.removeAllRanges();
-  
-    // Provide some feedback to the user
+    document.removeEventListener("copy", listener);
+
     showAlert("Formatted text copied to clipboard!");
-}
+  };
 
 function showAlert(message) {
     const notification = document.createElement("div");
@@ -68,7 +63,7 @@ function showAlert(message) {
 
     setTimeout(function() {
         notification.remove();
-    }, 2000); // Remove after 3 seconds
+    }, 1000); // Remove after 1 seconds
 }
 
 // if input has changed, then clear the output innerHTML
