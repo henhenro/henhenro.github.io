@@ -4,7 +4,7 @@ New Site Color Palette:
     #000000 (black)
     #fffffe (white)
     #efd1a8 (peach)
-    #1a1a1a (lighter blak)
+    #1a1a1a (lighter black)
     #ffffff (white)
 
 Old Site Color Palette:
