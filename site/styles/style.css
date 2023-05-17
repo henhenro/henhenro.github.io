@@ -12,6 +12,16 @@
     padding: 30px 30px 30px 30px;
 }
 
+#intro-div {
+    background-color: #f7e8d3; /* tan (lighter) */
+    border-radius: 10px;
+    border-width: 1px;
+    /* margin: 10px 10px 10px 10px; */
+    padding: 20px 20px 20px 20px;
+    width: 75%;
+    margin: auto;
+}
+
 .center {
     text-align: center;
 }
@@ -20,6 +30,10 @@
     /* padding-left: 100px;
     padding-right: 100px; */
     max-width: 90%;
+}
+
+#left-padding {
+    padding-left: 10%;
 }
 
 .input-margin {
