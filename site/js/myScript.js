@@ -13,7 +13,7 @@ function transform() {
 
     // create bold_text for output and split the words
     var bold_text = "";
-    const words = input_text.split(" ");
+    const words = input_text.split(/\s+/);
 
     // now format the input_text into bold according to TikTok
     for (let i = 0; i < words.length; i++) {
@@ -81,7 +81,7 @@ setInterval(inputChanged, 50);
 // if input is blank, then put placeholder text in the output innerHTML
 function outputPlaceholder() {
     if (input.value == "") {
-        output.innerHTML = "<b>Fan</b>cy <b>Bol</b>ded <b>Te</b>xt</h5> <b>He</b>re";
+        output.innerHTML = "<b>Her</b>e's <b>Fan</b>cy <b>Bol</b>ded <b>Te</b>xt</h5>";
     }
 }
 
