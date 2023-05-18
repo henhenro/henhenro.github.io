@@ -77,7 +77,16 @@ function inputChanged() {
 
 // Call the inputChanged function every 50ms
 setInterval(inputChanged, 50);
-  
+
+// if input is blank, then put placeholder text in the output innerHTML
+function outputPlaceholder() {
+    if (input.value == "") {
+        output.innerHTML = "<b>Fan</b>cy <b>Bol</b>ded <b>Te</b>xt</h5> <b>He</b>re";
+    }
+}
+
+// Call the outputPlaceholder function every 50ms
+setInterval(outputPlaceholder, 50);
 
 
 

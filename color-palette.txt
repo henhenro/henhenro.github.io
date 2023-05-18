@@ -1,0 +1,6 @@
+#f7e8d3 (tan)
+#000000 (black)
+#fffffe (white)
+#efd1a8 (peach)
+#1a1a1a (lighter black)
+#ffffff (white)
